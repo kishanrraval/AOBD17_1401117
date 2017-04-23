@@ -1,5 +1,6 @@
 # Implementation of GAN using PPCA-em algorithm
-----
+
+
 >*  gan_ppca_w.py	  --> GAN Model which generates W which are the coefficints of principal components
 >*  gan_ppca_MXn.py	  --> GAN Model which generates Xn*M which is used for generating image
 >*  FactorAnalysis.py --> Generates the PC and M*Xn from MNIST 
@@ -11,8 +12,10 @@
 
 
 **Results After every 50 iterations**
+
 ![](https://lh3.googleusercontent.com/-_8fUlbh5TGA/WP0FWufwanI/AAAAAAAAAFg/jckj8cyN1o8I5Kzr-Ud5wWjAe5LgRmwAgCLcB/s0/ppca_gan_sub.PNG "ppca_gan_sub.PNG")
 
 ----------------
 **Comparing PCs with original PC of 1**
+
 ![](https://lh3.googleusercontent.com/-ZZ7JKmGSRII/WP0F2D_gjiI/AAAAAAAAAFs/E07SM7qLnywTNJJqJ_F0gTEkadlfP6G_ACLcB/s0/rms_compare.PNG "rms_compare.PNG")
